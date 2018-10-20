@@ -1,0 +1,18 @@
+# Pentagon numbers
+
+def is_pentagonal(n):
+    if (1+(24*n+1)**0.5) % 6 == 0:
+        return True
+    return False
+
+loop = True
+i = 1
+while loop:
+    for j in range(1, i):
+        a = i*(3*i-1)/2
+        b = j*(3*j-1)/2
+        if is_pentagonal(a+b) and is_pentagonal(a-b):
+            print(a-b)
+            loop = False
+            break
+    i += 1
