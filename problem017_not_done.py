@@ -1,1 +1,0 @@
-# Số kí tự khi viết các số từ 1 đến 1000 bằng chữ
