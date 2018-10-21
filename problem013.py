@@ -107,8 +107,8 @@ for index, item in enumerate(list_sequence):
     total += int(item)
 
 list_digits = list(str(total))
-ten_digits = list_digits[0]
-for i in range(1,10):
-    ten_digits = ten_digits + list_digits[i]
+ten_digits = ""
+for i in range(0,10):
+    ten_digits += str(list_digits[i])
 
 print(ten_digits)
