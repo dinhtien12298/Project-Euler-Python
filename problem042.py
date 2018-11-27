@@ -1,4 +1,5 @@
 # How many are triangle words?
+
 import math
 file_names = open("problem042_names.txt","r")
 

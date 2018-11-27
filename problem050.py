@@ -16,11 +16,15 @@ for currentPrime in range(2, n):
     list_primes.append(currentPrime)
     for i in range(2, roundUp(n, currentPrime)):
         primes[i * currentPrime] = False
+# Ta được list_primes là list các số nguyên tố dưới 1 triệu
 
 # Tìm số nguyên tố bằng tổng nhiều số nguyên tố nhất
+# list_length: List số các số nguyên tố mà 1 số nguyên tố có thể phân tích ra
+# list_dictionary: List các bộ giá trị, key là số nguyên tố có thể phân tích được, value là số các số nguyên tố mà key đó có thể phân tích ra
 list_length = []
 list_dictionary = []
 for number in list_primes:
+    # list_check: List các số nguyên tố mà 1 số có thể phân tích ra
     list_check = []
     number_real = number
     for i in list_primes:
@@ -45,8 +49,9 @@ for number in list_primes:
     if number == 0:
         list_length.append(len(list_check))
         list_dictionary.append({number_real:len(list_check)})
-loop = True
 
+# Duyệt từng bộ giá trị trong list_dictionary, đến key có value bằng với giá trị lớn nhất trong list_length thì dừng lại và key là số nguyên tố cần tìm
+loop = True
 for index, item in enumerate(list_dictionary):
     if loop == True:
         for key, value in item.items():
