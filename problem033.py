@@ -1,3 +1,5 @@
+# Digit cancelling fractions
+
 list_result = []
 
 for a in range(10,100):

@@ -1,4 +1,4 @@
-# Có bao nhiêu số nằm trong chuỗi tạo thành từ a^b với 2 <= a,b <= 100
+# Distinct powers
 
 list_terms = []
 

@@ -1,5 +1,5 @@
-# # How many circular primes are there below one million?
-from itertools import permutations
+# How many circular primes are there below one million?
+
 from math import ceil
 
 list_primes = []
@@ -20,7 +20,6 @@ for currentPrime in range(2, n):
 # Kiểm tra tất cả các số nguyên tố có đảo không là số nguyên tố và thêm vào 1 list
 list_remove = []
 for number_check in list_primes:
-    print(len(list_remove))
     if ("2" in str(number_check)) or ("4" in str(number_check)) or ("6" in str(number_check)) or ("8" in str(number_check)) or ("0" in str(number_check)) or ("5" in str(number_check)):
         list_remove.append(number_check)
         continue

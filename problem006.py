@@ -1,3 +1,5 @@
+# Sum square difference
+
 # Bình phương của tổng
 square_of_summ = 0
 

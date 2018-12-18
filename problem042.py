@@ -1,4 +1,4 @@
-# How many are triangle words?
+# Coded triangle numbers
 
 import math
 file_names = open("problem042_names.txt","r")

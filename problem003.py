@@ -1,3 +1,5 @@
+# Largest prime factor
+
 n = 600851475143
 i = 2
 
@@ -6,4 +8,4 @@ while i ** 2 < n:
         n = n / i
     i += 1
     
-print(int(n))
+print(n)

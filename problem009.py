@@ -1,4 +1,4 @@
-# Ba số Pythagore có tổng bằng 1000
+# Special Pythagorean triplet
 
 for a in range(1, 332):
     for b in range(a, 1000 - a):

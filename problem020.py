@@ -1,4 +1,4 @@
-# Tính tổng tất cả các kí tự của số 100!
+# Factorial digit sum
 
 import math
 

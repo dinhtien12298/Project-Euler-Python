@@ -1,3 +1,5 @@
+# 1000-digit Fibonacci number
+
 fibonacci = [1,1]
 
 loop = True

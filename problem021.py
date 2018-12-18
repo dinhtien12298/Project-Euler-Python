@@ -1,4 +1,4 @@
-# Tổng tất cả các số Amicable dưới 10000
+# Amicable numbers
 
 list_amicable_number = []
 

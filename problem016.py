@@ -1,4 +1,4 @@
-# Tính tổng tất cả các kí tự của 2^1000
+# Power digit sum
 
 n = 2 ** 1000
 sum = 0
